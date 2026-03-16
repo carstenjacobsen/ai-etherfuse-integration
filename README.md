@@ -1,8 +1,33 @@
-# AI Etherfuse DeFindex Integration
+# AI Etherfuse Integration
 
+Etherfuse is an on/off-ramp, token swap and bridge, with focus on the Mexican market. One of Etherfuse’s main products is “Stablebonds,” which are blockchain tokens backed 1:1 by real government treasury bonds. These tokens behave like traditional bonds in that they generate yield from the underlying debt, but they can also move across blockchain networks like any other crypto asset. This means investors can buy fractional portions of sovereign bonds with very small amounts of capital—sometimes as little as $1—while still benefiting from the underlying bond’s interest and transparency provided by on-chain systems.
 
+## Why Use Etherfuse?
+- **Stablebonds** - tokenized treasury bonds backed by real-world government bonds provide retail investors with security and transparency
+- **Swap** - Etherfuse FX converts USD ↔ MXN in seconds* at 1/10 the cost of banks. Backed by Mexican government bonds. Available 24/7
+- **Link Bank Account** - Mexican bank accounts can be integrated
+- **Bridge** - Etherfuse leverages LayerZero to bridge Stablebonds between blockchains
 
+Learn more about DeFindex and get started with these resources:
 
+- [Documentation](https://docs.etherfuse.com)
+- [Etherfuse Website](https://www.etherfuse.com)
+- [Etherfuse Devnet](https://devnet.etherfuse.com)
+- [Etherfuse Sandbox Reference](https://docs.etherfuse.com/test-environment)
+- [Etherfuse Dev Resources](https://devnet.etherfuse.com/legal/dev-docs)
+
+## Vibe Coding
+Etherfuse is a comprehensive TradFi/DeFi platform with many features and capabilities, but thanks to an easy-to-use API, great documentation and open sourced example projects, Claude Code is very capable of integrating Etherfuse.
+
+A simple prompt to build a simple Etherfuse-based dApp could look like this:
+
+```
+create a wallet application on stellar, using etherfuse for on- and off-ramping USDC and defindex for yield earning
+```
+
+This will build a Next.js dapp with the Etherfuse ramp integration and the DeFindex integration.
+
+See the Build Report below.
 
 # Build Report: `stellar-etherfuse-wallet`
 
